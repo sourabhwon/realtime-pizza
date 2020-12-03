@@ -1,0 +1,63 @@
+ @import './variables';
+
+
+ body{
+     font-family:'lato',sans-serif ;
+     -webkit-font-smoothing:antialiased;
+     color: $dark;
+     height: 400px;
+ }
+
+ .pizza{
+     width: 70px;
+     height: 70px;
+     border-radius: 20px;
+
+ }
+ .cart{
+     width: 50px;
+     height: 50px;
+     &:hover{
+         color: $primary;
+     }
+ }
+ nav li a{
+     &:hover{
+        color: $primary;
+     }
+      
+ }
+ .hero-pizza{
+     width: 90%;
+     border-radius: 20px;
+ }
+ section.hero{
+     background: $seconadry;
+ }
+ .ipizza{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+
+ }
+ .size{
+     background: $seconadry
+ }
+ .add-to-cart{
+     border: 2px solid $primary;
+    
+     &:hover{
+         background: $primary;
+         border-color: $pur;
+         color: $pur;
+     }
+
+ }
+ .row{
+    display: grid; 
+    grid-template-columns: auto auto auto; 
+    grid-row-gap: 25px; 
+    grid-column-gap: 20px; 
+    //background-color: green; 
+    padding: 30px; 
+ }
