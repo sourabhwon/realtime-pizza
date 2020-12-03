@@ -61,3 +61,27 @@
     //background-color: green; 
     padding: 30px; 
  }
+ .btn-primary{
+     background: $primary;
+     &:hover{
+         background: $primary-hover;
+     }
+ }
+ .od{
+     width: 30px;
+     height: 30px;
+ }
+ .ospizza{
+     width: 120px;
+     height: 120px;
+     border-radius: 30px;
+ }
+ .amount{
+     color: $primary ;
+ }
+  
+ section.login{
+     a{
+         color: $primary;
+     }
+ }

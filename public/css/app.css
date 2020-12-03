@@ -61,3 +61,30 @@ section.hero {
   padding: 30px;
 }
 
+.btn-primary {
+  background: #FE5F1E;
+}
+
+.btn-primary:hover {
+  background: #b23301;
+}
+
+.od {
+  width: 30px;
+  height: 30px;
+}
+
+.ospizza {
+  width: 120px;
+  height: 120px;
+  border-radius: 30px;
+}
+
+.amount {
+  color: #FE5F1E;
+}
+
+section.login a {
+  color: #FE5F1E;
+}
+
